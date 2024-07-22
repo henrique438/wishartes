@@ -332,7 +332,7 @@ label {
 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:394px) {
     .topo {
         padding-top: 0;
         display: flex;
@@ -348,14 +348,23 @@ label {
 
 .menu {
     margin-top: 0;
-    width: 60%;
+    width: 65%;
 }
 
 @media screen and (min-width:800px) {
     h1 {font-size: 30px;}
-    .topo { height: 80px;}
+    .topo { height: 85px;}
     .destaque { height: 560px;}
     p { font-size: 21px;}
+}
+
+@media screen and (min-width:800px) {
+    h1 {font-size: 30px;}
+    .topo { height: 85px;}
+    .menu { width: 70%;}
+    .destaque { height: 550px;}
+    p { font-size: 20px;}
+    
 }
 
 
