@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish artes</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="topo">
+        <h1><a href="index.html">Wish Artes</a></h1>
+        <nav class="menu">
+            <a href="historia.html">História</a>
+            <a href="paul.html">Paul cezánne</a>
+            <a href="henri.html">Henri matisse</a>
+            <a href="van.html">Van gogh</a>
+            <a href="gustavo.html">Gustav Klimt</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main >
+        <article class="contato">
+            <h2>Contatos</h2>
+
+            <p>
+                <b>Entre em contato conosco para saber mais sobre o mundo da arte, estamos aqui para tirar dúvidas e venha fazer parte de nossa equipe!</b>
+        
+            </p>
+
+
+            <p><b>Atenção: os campos</b> <b>Nome</b>, <b>E-mail</b> e <b>Mensagem</b> são <u><b>obrigatórios</b></u>.</p>
+
+            <!--  atributo action tem a ver com o destino/forma de programaçaõ de processamento.por hora, deixe vazio.
+              
+            atributo method é a forma mais segura e recomendada para transmitir os dados. Sempre use em formulários de contato/cadastro.-->
+            <form action="" method="post">
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </p>
+
+                <p>
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <option value=""></option>
+                        <option>sugestões</option>
+                        <option>reclamações</option>
+                        <option>Elogios</option>
+                        <option>Outros</option>
+                        <option>RH</option>
+                    </select>
+
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="7"></textarea>
+
+                </p>
+
+                <button type="submit" id="enviar">Envia dados</button>
+
+
+            </form>
+
+
+        </article>
+
+
+    </main>
+
+   
+    <footer class="rodape">
+        <p>
+            wish artes, os pintores renomados estão aqui
+        </p>
+    </footer>
+    
+</body>
+</html>
